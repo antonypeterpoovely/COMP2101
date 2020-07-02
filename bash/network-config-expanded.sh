@@ -62,9 +62,9 @@ EOF
 #####
 # define the interface being summarized
 
-##########################################
+
 # Task 1
-##########################################
+
 interfaces_list=$(ifconfig | grep -w -o '^[^ ][^ ]*:' | tr -d :)
 
 for interface in $interfaces_list; do
