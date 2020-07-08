@@ -8,12 +8,7 @@
 #    the product of the 3 numbers with a label
 
 #ask user to type numbers
-echo "enter first number"
-read fnum
-echo "enter second number"
-read snum
-echo "enter a third number"
-read tnum
+read -p "enter the 3 numbers" fnum snum tnum
 #######################################################################################
 #arithmetic calculation
 sum=$((fnum + snum + tnum))

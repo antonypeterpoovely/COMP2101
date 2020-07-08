@@ -1,0 +1,4 @@
+#!/bin/bash
+rompt="Enter 2 numbers "
+ read -p "$prompt" usernumber1 usernumber2
+ echo "User gave us $usernumber1 and $usernumber2"
